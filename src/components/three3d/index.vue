@@ -44,9 +44,10 @@ export default {
     methods: {
         progress(percent) {
             this.percent = percent;
-            if(percent === 100){
-                this.loadingVisible = false
-            }
+            // if(percent === 100){
+            //     this.loadingVisible = false
+            // }
+            this.loadingVisible = false
         },
     },
     mounted() {},
